@@ -1,0 +1,95 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="js/jquery.js"> </script>
+  
+</head>
+   <body>
+    <div data-role="page" id="homepage">
+      <div data-role="panel" id="menu">
+       <button>Home</button>  
+        
+      </div>
+   
+    <div data-role="header" id="homepage">
+     <h2> Study_App </h2>
+     <a href="#menu"> 
+     <i class="fa fa-bars"style =
+     "font-size:18px;color:red">  </i></a>
+    </div>
+    <div data-role="main" class="ui-content">
+       <h3><a href="C:\Users\Dell\Desktop\mobile app\book\Image-3894-1-1.jpg">  <i><u> <center>Welcome to My App </center> </u></i>  </a></h3>
+      
+    </div>
+    <div data-role="footer" data-position="fixed" data-theme="b">
+      <div data-role="navbar">
+      <ul>
+
+        <li><a href="#" data-icon="home">Home </a> </li>
+        <li> <a href="#Editpage" data-icon="comment"> Edit </a> </li>
+        <li> <a href="#Viewpage" data-icon="edit"> View </a> </li>
+      </ul>
+    </div>
+    </div>
+ </div>
+<script src="js/jquery.mobile-1.4.5.js"></script>
+
+
+<!-- About page -->
+
+    <div data-role="page" id="Editpage">
+
+    	<div data-role="header">
+    	   <h3> Editing task </h3>
+    	</div>
+    	<div data-role="main" class="ui-content">
+
+    		 <a href="#" class="ui-btn ui-btn-inline ui-corner-all ui-mini ui-icon-info ui-btn-icon-right"> Menu </a>
+    	</div>
+    	<div data-role="footer" data-position="fixed" data-theme="b">
+          <div data-role="navbar">
+      <ul>
+        <li><a href="#homepage" data-icon="home">Home </a> </li>
+        <li> <a href="#Editpage" data-icon="comment"> Edit </a> </li>
+        <li> <a href="#Viewpage" data-icon="edit"> View </a> </li>
+      </ul>
+          </div>
+        </div>
+    </div>
+
+         
+         <!-- About page -->
+
+    <div data-role="page" id="Viewpage">
+
+
+		    	<div data-role="header">
+    	   <h3> Editing task </h3>
+    	</div>
+    	<div data-role="content" class="ui-content">
+
+    		<a href="#System_setting" class="ui-btn ui-btn-inline ui-corner-all ui-mini ui-icon-info ui-btn-icon-right"> System setting </a>
+    	</div>
+    	<div data-role="footer" data-position="fixed" data-theme="b">
+          <div data-role="navbar">
+      <ul>
+        <li><a href="#homepage" data-icon="home">Home </a> </li>
+        <li> <a href="#Editpage" data-icon="comment"> Edit </a> </li>
+        <li> <a href="#" data-icon="edit"> View </a> </li>
+      </ul>
+          </div>
+        </div>
+
+             <div data-role="panel" id="System_setting"
+			    data-display="overlay" data-position="right">
+			    <ul data-role="listview" data-inset="true">
+				<li data-icon="gear"><a href="#"> Settings </a> </li>
+				<li data-icon="audio"><a href="#">Sound system </a> </li>
+				</ul>
+			 </div>
+    </div>
+             
+    </body>
+</html>
